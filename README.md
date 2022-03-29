@@ -1,4 +1,4 @@
-# minishell
+## 42 - minishell
 
 https://www.aosabook.org/en/bash.html  
 https://stackoverflow.com/questions/5491775/how-to-write-a-shell-lexer-by-hand  
@@ -43,22 +43,3 @@ https://tldp.org/LDP/abs/html/exitcodes.html
 https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_08_02   
 
 https://stackoverflow.com/questions/9084099/re-opening-stdout-and-stdin-file-descriptors-after-closing-them
-
-- [x] Afficher un prompt en l’attente d’une nouvelle commande
-- [x] Chercher et lancer le bon executable (basé sur une variable d’environnement PATH ou en utilisant un path absolu), comme dans bash
-- [x] Vous devez implémenter les builtins suivants :
-  - [x] echo et l’option ’-n’
-  - [x] cd uniquement avec un chemin absolu ou relatif
-  - [x] pwd sans aucune option
-  - [x] export sans aucune option
-  - [x] unset sans aucune option
-  - [x] env sans aucune option ni argument
-  - [x] exit sans aucune option 
-- [x] ; dans la ligne de commande doit séparer les commandes
-- [x] ’ et " doivent marcher comme dans bash, à l’exception du multiligne.
-- [x] Les redirections <, > et “>>” doivent marcher comme dans bash, à l’exception des aggrégations de fd
-
-- [x] Pipes | doivent marcher comme dans bash.
-- [x] Les variables d’environnement ($suivi de caractères) doivent marcher comme dans bash.
-- [x] $? doit marcher comme dans bash
-- [x] ctrl-C, ctrl-D et ctrl-\ doivent afficher le même résultat que dans bash.
