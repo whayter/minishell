@@ -1,6 +1,6 @@
 ## 42 - minishell
 
-shell program
+implementation of a shell program
 
 #### Docs
 
